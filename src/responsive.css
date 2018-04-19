@@ -1,0 +1,75 @@
+@media screen and (max-width: 1199px) {
+
+	.cellpad {margin:50px auto 25px;}
+	.cellpad .item1 { margin-right: -75px; right: 50%;	top: -20px;  }
+	.cellpad .item2 { margin-right: -152px; right: 50%; 	top: 116px; }
+	.cellpad .item3 { margin-right: -75px; right: 50%;	top: 252px; }
+	.cellpad .item4 { margin-right: 2px; right: 50%;	top: 116px; }
+	.cellpad .item5 { margin-right: -230px; right: 50%;		top: 252px; }
+	.cellpad .item6 { margin-right: 80px; right: 50%; top: 252px; }
+
+	.copyright{
+		text-align: center;
+		margin:50px auto;
+		width: 100%;
+		display: block;
+		float: none;
+	}
+
+
+}
+
+/*-----------------------------*/
+
+@media screen and (max-width: 991px) {
+	.quarteritem { display: inline-block;		width: 100%;		margin-top: 30px;	}
+	.timeline .right .dot {	right: auto; left: 50%; top: 0; margin-left: -10px;  margin-right:auto; }
+	.timeline .left .dot {	right: 50%; left: auto; top: 0;  margin-right: -10px; margin-left:auto; }
+	.timeline .text-right{ text-align: center;	}
+	.timeline .pull-left,
+	.timeline .inline{ float: none;  display: block; width: 100% ; text-align: center;	}
+	.timeline .pull-right,
+	.timeline .inline{ float: none;  display: block;  width: 100% ; text-align: center;	}
+
+	.offset-center {padding: inherit; }
+	.psd-link { padding: 20px 40px; margin:20px auto 0px;width: 100%; display: block;}
+
+
+}
+
+/*-----------------------------*/
+
+
+/*-----------------------------*/
+@media screen and (max-width: 720px) {
+
+	.ProfileImg {
+		border-right: none;		padding-right: 0;		margin-right: 0;
+		display: block; width: 100%;
+		text-align: center;
+	}
+	.ProfileName{
+		display: block; width: 100%;
+		text-align: center;
+	}
+	.mega-year {
+		display: block; text-align: center; font-size: 12em;
+		left: 0; right: 0;	top: 80px;
+	}
+}
+
+
+/*-----------------------------*/
+
+@media screen and (max-width: 510px) {
+
+	.cellpad {min-height: 600px;}
+  .cellpad .item3 { margin-right: 2px; 		right: 50%;		top: 300px; }
+	.cellpad .item5 { margin-right: -152px; right: 50%;		top: 300px; }
+	.cellpad .item6 { margin-right: -75px; 	right: 50%; 	top: 438px; }
+
+	.sec5 { padding-top: 50px; }
+
+}
+
+ 
